@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<!--HTML5 doctype declaration -->
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<meta charset="utf-8">
+<title>My First Webpage</title>
+
+<!--JavaScript that enables Internet Explorer (version 8 and below) to recognise HTML5 elements -->
+
+ <script type="text/javascript">
+ document.createElement ('article')
+ document.createElement ('nav')
+ document.createElement ('aside')
+ document.createElement ('header')
+ document.createElement ('footer')
+ document.createElement ('main')
+ </script>
+<link href="stylesheet2.css" title="Style One" rel="stylesheet" type="text/css">
+<link href="stylesheet.css" title="Style Two" rel="stylesheet" type="text/css">
+
+<meta http-equiv="default-style" content="Style One"> 
+
+</head>
+
+<body>
+<div id="load">
+<div id="wrapper">
+
+    <header>
+  <h1 style="text-align:center"><strong>My Learning Journal</strong></h1>
+  <h2 style="text-align:center"><em>My Journey of Web Development</em></h2>
+ </header>
+
+<!--Menu navigation -->
+<div class="banner">
+<nav class="menu">
+  <ul>
+  
+    <li> Home </li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="http://validator.w3.org/"> Validator</a></li>
+    <li><a href="tutorial.html">Tutorial</a></li>
+
+  </ul>
+</nav> 
+</div>
+<!--End of menu navigation-->
+
+<div>
+
+<nav class="sidebar">
+
+<!---Sidebar List -->
+<header style="text-align : center;font-size:24px; padding-top:10px"> <em><u>Posts</u></em> </header>
+<ul>
+<li><a href="#week1">Week 1</a></li>
+<li><a href="#week2">Week 2</a></li>
+<li><a href="#week3">Week 3</a></li>
+<li><a href="#week4">Week 4</a></li>
+<li><a href="#week5">Week 5</a></li>
+<li><a href="#week7">Week 7</a></li>
+<li><a href="#week8">Week 8</a></li>
+<li><a href="#week9">Week 9</a></li>
+<li><a href="#week10">Week 10</a></li>
+<li><a href="#week11">Week 11</a></li>
+</ul>
+
+</nav>
+    
+<main>
+<!--The main page content -->
+
+
+<!--WEEK ELEVEN-->
+<article><header>
+<h2><a name="week11"><u>Week 11</u></a></h2>
+        <h5 style="font-style: italic;"> Published on January 6th 2015 </h5>
+</header>
+<p> This week I completed my tutorial page. I used images and and a video of a friend demonstrating how to knit. I found it really difficult to oragnise this page in a layout which could be easily followed as you cannot just simply align the pictures left, right or centre. To position of some of the images effectively I used the float and clear elements from the tutorial in <a href="http://www.cem.brighton.ac.uk/staff/john10/ci135/tutorial10/tutorial10.html"> Week 10</a>, which would allow the webpage to have a normal flow and also so text could wrap around it. </p>
+<p> I used the website <a href="http://www.w3schools.com/html/html5_video.asp">[1] W3 Schools</a> with help on how to input a video into a HTML document. However, I get validation errors when using this method stating that it is a bad value to use. I researched this problem and I couldn't get my head around why it was such a problem, in addition with some of the images I added. It claims that the attributes I have used are not recognised and would have to be registered, and these are the <a href="http://www.w3.org/TR/html5/links.html#linkTypes">[2] rules</a> associated with HTML which explain the problems.</p>
+<p> In my opinion the most difficult part of it all is trying to make both stylesheets consistent with one page without changing the HTML content.</p>
+</article>
+<!--END OF WEEK ELEVEN-->
+
+<!--WEEK TEN-->
+<article><header>
+<h2><a name="week10"><u>Week 10</u></a></h2>
+        <h5 style="font-style: italic;"> Published on December 16th 2014 </h5>
+</header>
+<p> For my second style sheet I wanted the webpage to look more modern and have a fade in effect when the page is first opened. I struggled with this for quite a while as quite a few website tutorials recommended that I use JavaScript.</p>
+<p> I used the <a href="http://stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load"> [3] Stack Overflow</a> Questions and Answers website to help me with this. While experimeenting with thius teechnique I learnt that different browsers require their own different type of animation CSS property. For example, the browsers Google Chrome and Safari use '-webkit', Firefox uses '-moz' and Internet Explorer uses '-ms'. I learnt more about browser compatability types from the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation#Browser_compatibility"> [4]  Mozilla Developer Network</a>. So after discovering this I ensured that if I was to have any animation in my webpage, that I should write code that would ensure that it would work on all type of browsers.</p>
+
+</article>
+<!--END OF WEEK TEN-->
+<!--WEEK NINE-->
+<article><header>
+<h2><a name="week9"><u>Week 9</u></a></h2>
+        <h5 style="font-style: italic;"> Published on December 9th 2014 </h5>
+</header>
+<p>  One thing I didn't like on the webpage was how the weekly post were displayed on the right hand side, therefore I took the idea of the left hand sliding menu and did the same on the right hand side. So, if you are so hover on the left hand or the right hand side of the webpage a menu would appear displaying the menu or the weekly posts. This allows the blog posts to be at the centre of the webpage and the main focus.</p>
+<p>I struggled with the weekly posts at right hand side of the webpage because when you hover over it, a gap remains that I cannot seem to get rid of. </p>
+</article>
+<!--END OF WEEK NINE-->
+<!--WEEK EIGHT-->
+<article><header>
+<h2><a name="week8"><u>Week 8</u></a></h2>
+        <h5 style="font-style: italic;"> Published on December 2nd 2014 </h5>
+</header>
+<p> One way to make my second stylesheet different from the first, I thought that it should be more interaactive and there should be a moving menu. One that pops up from the top or slide in from the side. I researched many existing websites to get ideas on how to do this and what style I should use.</p>
+<p>I got my inspiration from <a href="http://www.sitepoint.com/css3-sliding-menu/ "> [5] Sitepoint</a> where I was able to mould their ideas with my own. I created a menu which slid out from the left hand side.</p>
+</article>
+<!--END OF WEEK EIGHT-->
+<!--WEEK SEVEN-->
+<article><header>
+<h2><a name="week7"><u>Week 7</u></a></h2>
+        <h5 style="font-style: italic;"> Published on November 25th 2014 </h5>
+</header>
+<p> I pretty much finished the styling of my first stylesheet for my website, and now I have to create another one *sigh*. So I'm thinking of ways I could make this one look completely different.</p>
+<p> My first idea was to add animation and make it more interactive so I researched ways to make this happen. Alot of the code I researched on the Internet also used JavaScript. I experimented with this a few times and it completely failed. Therefore this is something I need to look into in the future a lot more.</p>
+<p>
+</article>
+<!--END OF WEEK SEVEN-->
+
+<!--WEEK FIVE-->
+<article>
+<header>
+<h2><a name="week5"><u>Week 5</u></a></h2>
+        <h5 style="font-style: italic;"> Published on November 11th 2014 </h5>
+</header>
+<p>
+For this week I reconstructed how my table looks and switch the design for using basic HTML to CSS.
+</p>
+</article>
+<!--END OF WEEK FIVE-->
+
+<!--WEEK FOUR-->
+<article>
+<header>
+
+<h2><a name="week4"><u>Week 4</u></a></h2>
+        <h5 style="font-style: italic;"> Published on November 4th 2014 </h5>
+</header>
+        
+        <p> When I first added the CSS stylesheet to my website it actually got rid of every single design I had worked on which actually really annoyed me. I thought about getting rid of it and just continue designing with HTML itself as I was doing before, but I was like nah let me give this a go. </p>
+        <p> I learnt that it makes the designing of a webpage a lot easier and it grew quite quickly on me.</p>
+        <p> After playing around with the CSS stylesheet for a while I ended my tutorial by checking for any errors by using <a href="http://jigsaw.w3.org/css-validator"> W3c CSS validation service</a>. I got really excited 'lol' when I didn't get any errors.
+        </p>
+        
+</article>
+
+
+<!--END OF WEEK FOUR-->
+
+<!--WEEK THREE-->
+    <article>
+<!--Content node -->
+  <header>
+  <h2><a name="week3"><u>Week 3</u></a></h2>
+        <h5 style="font-style: italic;"> Published on October 28th 2014 </h5>
+  </header>
+<p> This week I focused on how to design a webpage by expanding my knowledge of adding photos and making them links. Also I have 
+  
+This week I have learnt how to make list and other webpage designing and layout techniques
+
+<ol>
+<li> Firstly this week I learnt how to create lists
+<ul> 
+<li>Creating ordered lists by using the tag "ol"</li>
+<li>Creating an unordered list by using the tag "ul"</li>
+</ul>
+<li> Learning different webpage designing techniques
+</li>
+
+<li style ="background-color: yellow"> Changing background colours </li>
+<li style="color:red"> Changing font colours </li>
+<li style ="font-family:Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif"> Changing text fonts </li>
+<li style="text-align: center"> Text alignment </li>
+<li> Making text <strong>bold</strong>, <em>italic</em> or <u>underlining</u> it </li>
+
+<li>Creating a table</li>
+<li>I created a table and entered the details of my timetable</li>
+</ol>
+
+<p>
+<table >
+
+  <tr>
+    <th>Day</th>
+    <th>9-10</th>
+    <th>10-11</th>
+    <th>11-12</th>
+    <th>12-13</th>
+    <th>13-14</th>
+    <th>14-15</th>
+    <th>15-16</th>
+     </tr>
+
+<tr>
+    <td>Monday</td>
+    <th colspan="7"> - </th>
+  </tr>
+  
+  <tr>
+    <td>Tuesday</td>
+   <th> - </th>
+    <th> CI101 Lecture</th>
+    <th> - </th>
+    <th> CI101 Seminar</th>
+    <th> CI135 Lab </th>
+    <th> -</th>
+    <th> CI101 Lab </th>       
+  </tr>
+
+  <tr>
+    <td>Wednesday</td>
+   <th> - </th>
+    <th> CI102 Lecture</th>
+    <th> - </th>
+    <th> CI153 Lecture</th>
+    <th> - </th>
+    <th> -</th>
+    <th> - </th>
+    </tr>
+
+  <tr>
+    <td>Thursday</td>
+   <th> CI143 Lecture </th>
+    <th> CI143 Tutorial</th>
+    <th> CI135 Lecture </th>
+    <th> CI135 Lecture</th>
+    <th> CI101 Lecture </th>
+    <th> -</th>
+    <th> - </th>
+  </tr>
+<tr>
+    <td>Friday</td>
+   <th colspan="7"> - </th>      
+  </tr>
+</table>
+ </article>
+    <!-- END OF WEEK THREE-->
+    
+  <!--WEEK TWO-->
+    <article>
+<!--Content node -->
+  <header>
+  <h2><a name="week2"><u>Week 2</u></a></h2>
+        <h5 style="font-style: italic"> Published on October 21st 2014 </h5>
+  </header>
+<p> This week I have been using a website called <a href="http://www.codecademy.com">[6] Code Academy</a> to assist me with learning HTML. Its a lot easier than evEr imagined, I quickly grasped the basics of using tags, making links and making images into links in about an hour!
+</p>
+<div class="floatimg">
+<a  href="http://www.codecademy.com">
+<img src ="images/printscreen.jpg" width="331" height="263" title="Code Academy Tutorials"/>
+</a>
+</div>
+<p>Click on the image and it will take you to the website</p>
+ </article>
+  <!-- END OF WEEK TWO-->
+    
+    
+<!--WEEK ONE-->
+ <article>
+<!--Content node -->
+  <header>
+  <h2><a name="week1"><u>Week 1 - Getting Started</u></a></h2>
+  </header>
+        <h5 style="font-style: italic"> Published on October 14th 2014 </h5>
+      
+      <p> This week I have been learning how to start up my own site using HTML, also using programs such as Dreamweaver. I completed the lab tutorial in order to create My Learning Journal and my own personal website.  </p>
+ </article>
+<!--END OF WEEK ONE -->
+    </main>
+
+  <!--Close main page content -->  
+  <!--FOOTER -->  
+<footer>
+<small>© 2011-2014, Leslie Wilson.</small>
+</footer>
+</div>
+</div>
+</div>
+<!--Close 'wrapper' div -->
+</body>
+</html>
+
+
